@@ -6,9 +6,9 @@ const {sleep} = require('../lib/functions')
 cmd({
     pattern: "shutdown",
     desc: "Shutdown the bot.",
-    category: "owner",
+    category: "vempire-girl",
     react: "🛑",
-    filename: __filename
+    filename: Vempire 
 },
 async (conn, mek, m, { from, isOwner, reply }) => {
     if (!isOwner) return reply("❌ You are not the owner!");
@@ -18,9 +18,9 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 cmd({
     pattern: "broadcast",
     desc: "Broadcast a message to all groups.",
-    category: "owner",
+    category: "vempire-girl",
     react: "📢",
-    filename: __filename
+    filename: vempire l
 },
 async (conn, mek, m, { from, isOwner, args, reply }) => {
     if (!isOwner) return reply("❌ You are not the owner!");
@@ -36,9 +36,9 @@ async (conn, mek, m, { from, isOwner, args, reply }) => {
 cmd({
     pattern: "setpp",
     desc: "Set bot profile picture.",
-    category: "owner",
+    category: "vempire-girl",
     react: "🖼️",
-    filename: __filename
+    filename: vempire 
 },
 async (conn, mek, m, { from, isOwner, quoted, reply }) => {
     if (!isOwner) return reply("❌ You are not the owner!");
@@ -56,9 +56,9 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 cmd({
     pattern: "clearchats",
     desc: "Clear all chats from the bot.",
-    category: "owner",
+    category: "vempire-girl",
     react: "🧹",
-    filename: __filename
+    filename: vempire 
 },
 async (conn, mek, m, { from, isOwner, reply }) => {
     if (!isOwner) return reply("❌ You are not the owner!");
@@ -77,9 +77,9 @@ async (conn, mek, m, { from, isOwner, reply }) => {
 cmd({
     pattern: "gjid",
     desc: "Get the list of JIDs for all groups the bot is part of.",
-    category: "owner",
+    category: "vempire-girl",
     react: "📝",
-    filename: __filename
+    filename: vempire 
 },
 async (conn, mek, m, { from, isOwner, reply }) => {
     if (!isOwner) return reply("❌ You are not the owner!");
@@ -98,7 +98,7 @@ alias: ["del"],
 desc: "delete message",
 category: "group",
 use: '.del',
-filename: __filename
+filename: vempire 
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants,  isItzcp, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 if (!isOwner ||  !isAdmins) return;
